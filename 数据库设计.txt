@@ -1,0 +1,12 @@
+﻿用户表 id name password date(注册时间) 主码id 
+积分表 id score 主码id 外码id
+积分明细表 no1(编号) id time1 type change 主码no1 外码id
+成绩表 id games(局数) win lose 主码id     (和积分表合并？)
+成绩明细表 no1 id time2 duration result step(步数) (detail(当局截图或别的方式记录)) 主码no1 id 外码id
+段位表 rank score 主码rank 
+{
+钱包表 
+商品表 
+签到表
+道具表
+}//是否需要？
