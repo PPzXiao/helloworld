@@ -4,6 +4,10 @@
 成绩表 id games(局数) win lose 主码id     (和积分表合并？)
 成绩明细表 no1 id time2 duration result step(步数) (detail(当局截图或别的方式记录)) 主码no1 id 外码id
 段位表 rank score 主码rank 
+留言表 id date（留言时间） message  主码 id
+
+
+
 {
 钱包表 
 商品表 
